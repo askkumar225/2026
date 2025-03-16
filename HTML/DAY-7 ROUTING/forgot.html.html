@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewgeport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title> CHANGE-PSW</title>
+</head>
+    <BODY>
+        <CENTER>
+            <h2>Password Changed Successfully</h2>
+            <table border="1" cellspacing="0" cellspadding="10">
+                <tr>
+                    <td>
+                        <center>
+                            <form action="loginsuccess.html.html" method="get" autocomplete="off">
+                            <h4>login</h4>
+                        <input type="text" name="username" pattern="[a-z]+" title="Enter name using a-z character" placeholder="Enter your username"required>
+                        <br></Br>
+                        <input type ="password" name="password" minlength="8" placeholder="Enter your new password" pattern="(=?.*[a-z])(?*=[A-Z])(?*.[0-9])(.*?[@#$]).{8,16}" title="enter password contains 1 small,capital,number,special and length should be 8-16"required>
+                        <br><br>
+                        <input type="submit" value="Login">
+                        <br><br>
+                            </form>
+                        </center>
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+            <a href="register.html.html">Register</a>
+        </CENTER>
+    </BODY>
+</html>

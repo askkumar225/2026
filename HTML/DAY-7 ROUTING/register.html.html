@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+        <title>REGISTER</title>
+</head>
+<body>
+    <CENTER>
+    <table border="1" cellspacing="0" cellspadding="10">
+        <tr>
+            <td>
+                <center>
+                    <h2><u>CREATE ACCOUNCT</u></h2>
+                    <form action="/registersuccess.html.html" method="get" autocomplete="off">
+                    <input type="text" name="username" name placeholder="enter your username" pattern="[a-z]+" title="enter your username with a-z" required>
+                    <br><br>
+                    <input type="text" name="email" name placeholder="enter your email" pattern="[a-z,0-9]+" title="enter your email with [a-z,0-9]" required>
+                    <BR><BR>
+                    <input type="text" name="number" name placeholder="enter moblie number" pattern="\+91,6789,[0-9]{9}+" title="enter  indian number +91" required>
+                    <br><br>
+                    <input type="text" name="password" name placeholder="enter your password" pattern="(?.*[a-z]),(.#*?[A-Z])(.%&![0-9]),{8,16}" title="enter your password  contain 1 small ,capital letter,numbers, special and length should be 8,16" placeholder="enter your password" required>
+                    <br><br>
+                    <input type="submit" value="Register">
+                    <br><br>
+                    </form>
+                </center>
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <a href="login.html.html">Already a user?-Login</a>
+    </CENTER>
+</body>
+</html>
