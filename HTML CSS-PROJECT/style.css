@@ -176,8 +176,7 @@ footer .socials a:hover {
 /* Mobile */
 @media (max-width: 768px) {
  .body{
-   padding: 0; 
-   margin:0;
+   padding: 10px; 
   } 
 .navbar {
     flex-direction: column; 
@@ -222,4 +221,5 @@ footer .socials a:hover {
     padding: 20px;
   }
 }
+
 
